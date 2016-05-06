@@ -1,0 +1,31 @@
+{
+  "name": "node-app-examples",
+  "version": "0.0.1",
+  "description": "PayPal In-Context NodeJS App Samples",
+  "main": "install.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paypaldev/node-app-examples.git"
+  },
+  "keywords": [
+    "PayPal",
+    "Express",
+    "Checkout",
+    "NodeJS",
+    "Node",
+    "PayPal"
+  ],
+  "author": "PayPalDev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paypaldev/node-app-examples/issues"
+  },
+  "homepage": "https://github.com/paypaldev/node-app-examples#readme",
+  "dependencies": {
+    "child-process-promise": "^2.0.2",
+    "prompt": "^1.0.0"
+  }
+}

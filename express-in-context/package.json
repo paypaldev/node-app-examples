@@ -1,0 +1,30 @@
+{
+  "name": "express-in-context",
+  "version": "0.0.1",
+  "description": "PayPal In-Context with a simple Express server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paypaldev/node-app-examples.git"
+  },
+  "keywords": [
+    "PayPal",
+    "In-Context",
+    "Express",
+    "Checkout"
+  ],
+  "author": "Nate Sanders",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paypaldev/node-app-examples/issues"
+  },
+  "homepage": "https://github.com/paypaldev/node-app-examples#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "express": "^4.13.4",
+    "paypal-rest-sdk": "^1.6.8"
+  }
+}

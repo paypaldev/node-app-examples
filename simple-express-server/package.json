@@ -1,0 +1,29 @@
+{
+  "name": "simple-express-server",
+  "version": "1.0.0",
+  "description": "PayPal Express Checkout with a Simple Express Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paypaldev/node-app-examples.git"
+  },
+  "keywords": [
+    "PayPal",
+    "Express",
+    "Checkout"
+  ],
+  "author": "Nate Sanders",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paypaldev/node-app-examples/issues"
+  },
+  "homepage": "https://github.com/paypaldev/node-app-examples#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "express": "^4.13.4",
+    "paypal-rest-sdk": "^1.6.8"
+  }
+}
