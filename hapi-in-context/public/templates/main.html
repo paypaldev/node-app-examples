@@ -1,0 +1,16 @@
+<div>
+    <h3>PayPal Checkout</h3>
+
+      <form id="myContainer" method="POST" action="/checkout"></form>
+
+      <script>
+            window.paypalCheckoutReady = function () {
+                paypal.checkout.setup("MFUX86KBB6EM2", {
+                    environment: "sandbox",
+                    container: "myContainer"
+                });
+        };
+      </script>
+
+      <script src="//www.paypalobjects.com/api/checkout.js" async></script>
+</div>

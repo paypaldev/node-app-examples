@@ -30,6 +30,11 @@ var apps = [
                 name: 'kraken-angular-in-context',
                 npm: true,
                 bower: true
+            },
+            {
+                name: 'hapi-in-context',
+                npm: true,
+                bower: true
             }
     ];
 

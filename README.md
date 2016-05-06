@@ -31,6 +31,8 @@ Example of `ppconfig/sandbox.json`:
   * This is a basic example using [KrakenJS](http://krakenjs.com/) with the [PayPal In-Context Experience](https://developer.paypal.com/webapps/developer/docs/classic/express-checkout/in-context/).
 4. [Kraken-Angular-In-Context](kraken-angular-in-context)
   * This is a progression from the [Kraken-In-Context](kraken-in-context) app, adding in [AngularJS](https://angularjs.org/) for the front-end APIs.
+5. [Hapi-In-Context](hapi-in-context)
+  * This is a simple example using [HapiJS](http://hapijs.com/) with the [PayPal In-Context Experience](https://developer.paypal.com/webapps/developer/docs/classic/express-checkout/in-context/).
 
 
 ## Running specific examples

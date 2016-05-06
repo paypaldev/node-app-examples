@@ -1,0 +1,37 @@
+{
+  "name": "hapi-in-context",
+  "version": "0.0.1",
+  "description": "HapiJS with PayPal In-Context",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paypaldev/node-app-examples.git"
+  },
+  "keywords": [
+    "PayPal",
+    "Express",
+    "Checkout",
+    "HapiJS",
+    "NodeJS"
+  ],
+  "author": "Nate Sanders",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paypaldev/node-app-examples/issues"
+  },
+  "homepage": "https://github.com/paypaldev/node-app-examples#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bower": "^1.7.9",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.3.0",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "path": "^0.12.7",
+    "paypal-rest-sdk": "^1.6.8",
+    "vision": "^4.1.0"
+  }
+}
