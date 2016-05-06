@@ -1,0 +1,18 @@
+<div>
+    <table border="1" ng-show="model.executePaymentButton">
+        <tr><td colspan="2"><center><strong>PAYMENT DETAILS</strong></center></td></tr>
+        <tr><th>KEY</th><th>VALUE</th></tr>
+        <tr ng-repeat="(key, value) in model.paymentDetails">
+            <td>[[key]]</td><td>[[ value | json ]]</td>
+        </tr>
+    </table>
+    <h3 ng-show="model.executePaymentButton">Continue:</h3>
+    <button style="margin-top: 20px; height: 60px; width: 100px; border-radius: 4px; background-color: blue; color: #FFF;" ng-show="model.executePaymentButton" ng-click="model.executePayment()"><strong>Execute Payment</strong></button>
+    <table border="1" ng-show="!model.executePaymentButton">
+        <tr><td style="background-color: green;" colspan="2"><center><strong>PAYMENT COMPLETE</strong></center></td></tr>
+        <tr><th>KEY</th><th>VALUE</th></tr>
+        <tr ng-repeat="(key, value) in model.completePaymentDetails">
+            <td>[[key]]</td><td>[[ value | json ]]</td>
+        </tr>
+    </table>
+</div>

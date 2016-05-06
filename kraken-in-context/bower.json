@@ -1,0 +1,18 @@
+{
+  "name": "kraken-in-context",
+  "description": "PayPal In-Context using KrakenJS and DustJS",
+  "main": "index.js",
+  "author": "Nate Sanders",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "generator-kraken": {
+    "taskModule": "grunt",
+    "lintModule": "eslint",
+    "description": "KrakenJS using AngularJS with PayPal In-Context",
+    "author": "Nate Sanders",
+    "templateModule": "makara",
+    "i18n": "i18n",
+    "componentPackager": "bower",
+    "cssModule": "less",
+    "jsModule": false,
+    "useJson": null
+  }
+}
